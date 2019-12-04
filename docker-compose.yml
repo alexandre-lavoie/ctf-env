@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  ctf-env:
+    image: ctf-env
+    build: .
+    tty: true
+    volumes:
+      - type: bind
+        source: ./shared
+        target: /shared

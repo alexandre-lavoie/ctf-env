@@ -3,4 +3,5 @@ RUN apt-get update && apt-get install -y tzdata locales && localedef -i en_US -c
 ENV LANG en_US.utf8
 RUN apt-get install -y gcc gdb mono-mcs
 RUN apt-get install -y ltrace strace
+RUN apt-get install traceroute
 WORKDIR /root

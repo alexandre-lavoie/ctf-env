@@ -4,6 +4,7 @@ A Docker Environment for CTF
 ## Packages
  - gcc, gdb
  - ltrace, strace
+ - traceroute
 
 ## Setup
 
